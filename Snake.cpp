@@ -26,28 +26,21 @@ void gotoXY( int column, int line )
     );
 }
 
-int randomX()
+int random()
 {
     srand(time(NULL));
-
     return rand()%10+1;
-
-}
-
-int randomY(int (*ptr)())
-{
-    return ptr();
 }
 
 int main( int argc, char* argv[])
 {
     int x(0), y(0);
-    char symbol = '*';
+    char symb = '*';
 
     while(1)
     {
-        x = randomX();
-        y = randomY(randomX);
+        x = random();
+        y = random();
         gotoXY(x,y);
         cout << symb;
 		Sleep(1);
