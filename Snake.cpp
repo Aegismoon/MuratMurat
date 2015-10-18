@@ -42,8 +42,7 @@ int randomY(int (*ptr)())
 int main( int argc, char* argv[])
 {
     int x(0), y(0);
-    char symbtwo = '*';
-	char symbthree = '&*'
+    
 
     while(1)
     {
