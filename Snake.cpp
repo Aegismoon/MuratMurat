@@ -50,6 +50,7 @@ int main( int argc, char* argv[])
         y = randomY(randomX);
         gotoXY(x,y);
         cout << symb;
+		sleep(1);
         system("cls");
     }
 
