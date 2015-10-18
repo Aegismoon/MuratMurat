@@ -42,7 +42,7 @@ int randomY(int (*ptr)())
 int main( int argc, char* argv[])
 {
     int x(0), y(0);
-    
+
 
     while(1)
     {
@@ -50,7 +50,7 @@ int main( int argc, char* argv[])
         y = randomY(randomX);
         gotoXY(x,y);
         cout << symb;
-		sleep(1);
+		Sleep(1);
         system("cls");
     }
 
